@@ -1,0 +1,7 @@
+# requirements
+torch==1.7.1
+tensorflow==2.4.1
+pytorch-lightning==1.2.3
+spacy==3.0.5
+seqeval==1.2.2
+tqdm
