@@ -2,10 +2,12 @@
 
 ## Environment
 ```shell
-# If you have conda, we recommend you to build a conda environment called "adl"
+# If you have conda, we recommend you to build a conda environment called "adl-hw1"
 make
-# otherwise
+conda activate adl-hw1
 pip install -r requirements.txt
+# Otherwise
+pip instsall -r requirements.in
 ```
 
 ## Preprocessing
