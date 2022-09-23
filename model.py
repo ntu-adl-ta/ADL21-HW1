@@ -26,3 +26,9 @@ class SeqClassifier(torch.nn.Module):
     def forward(self, batch) -> Dict[str, torch.Tensor]:
         # TODO: implement model forward
         raise NotImplementedError
+
+
+class SeqTagger(SeqClassifier):
+    def forward(self, batch) -> Dict[str, torch.Tensor]:
+        # TODO: implement model forward
+        raise NotImplementedError

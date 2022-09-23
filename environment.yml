@@ -1,8 +1,8 @@
-name: adl
+name: adl-hw1
 channels:
   - defaults
 dependencies:
-  - python=3.8
+  - python=3.9
   - cudatoolkit=10.2
   - cudnn=7.6
   - pip

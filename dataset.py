@@ -39,3 +39,11 @@ class SeqClsDataset(Dataset):
 
     def idx2label(self, idx: int):
         return self._idx2label[idx]
+
+
+class SeqTaggingClsDataset(SeqClsDataset):
+    ignore_idx = -100
+
+    def collate_fn(self, samples):
+        # TODO: implement collate_fn
+        raise NotImplementedError

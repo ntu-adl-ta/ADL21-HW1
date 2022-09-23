@@ -1,7 +1,8 @@
 # requirements
-torch==1.7.1
-tensorflow==2.4.1
-pytorch-lightning==1.2.3
-spacy==3.0.5
+torch==1.12.1
+tensorflow==2.10.0
 seqeval==1.2.2
 tqdm
+numpy
+pandas
+scikit-learn==1.1.2
