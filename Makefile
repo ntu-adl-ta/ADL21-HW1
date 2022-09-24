@@ -10,7 +10,7 @@ SHELL=/bin/bash
 CONDA_ACTIVATE=source $$(conda info --base)/etc/profile.d/conda.sh ; conda activate ; conda activate
 
 # Same name as in environment.yml
-CONDA_ENV=adl
+CONDA_ENV=adl-hw1
 
 all: conda-env-update pip-compile pip-sync
 
