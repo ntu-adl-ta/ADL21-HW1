@@ -1,4 +1,4 @@
-# Sample Code for Homework 1 ADL NTU 109 Spring
+# Sample Code for Homework 1 ADL NTU
 
 ## Environment
 ```shell
