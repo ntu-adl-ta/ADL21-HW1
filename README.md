@@ -7,7 +7,7 @@ make
 conda activate adl-hw1
 pip install -r requirements.txt
 # Otherwise
-pip instsall -r requirements.in
+pip install -r requirements.in
 ```
 
 ## Preprocessing
